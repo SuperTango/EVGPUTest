@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C405BF2D1F4BA660007EB8E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C405BF2C1F4BA660007EB8E3 /* AppDelegate.swift */; };
+		C405BF2F1F4BA660007EB8E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C405BF2E1F4BA660007EB8E3 /* ViewController.swift */; };
+		C405BF321F4BA660007EB8E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C405BF301F4BA660007EB8E3 /* Main.storyboard */; };
+		C405BF341F4BA660007EB8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C405BF331F4BA660007EB8E3 /* Assets.xcassets */; };
+		C405BF371F4BA660007EB8E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C405BF351F4BA660007EB8E3 /* LaunchScreen.storyboard */; };
+		C405BF421F4BA660007EB8E3 /* EVGPUImageTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C405BF411F4BA660007EB8E3 /* EVGPUImageTestTests.swift */; };
+		C405BF4D1F4BA660007EB8E3 /* EVGPUImageTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C405BF4C1F4BA660007EB8E3 /* EVGPUImageTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C405BF3E1F4BA660007EB8E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C405BF211F4BA660007EB8E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C405BF281F4BA660007EB8E3;
+			remoteInfo = EVGPUImageTest;
+		};
+		C405BF491F4BA660007EB8E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C405BF211F4BA660007EB8E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C405BF281F4BA660007EB8E3;
+			remoteInfo = EVGPUImageTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C405BF291F4BA660007EB8E3 /* EVGPUImageTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVGPUImageTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C405BF2C1F4BA660007EB8E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C405BF2E1F4BA660007EB8E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C405BF311F4BA660007EB8E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C405BF331F4BA660007EB8E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C405BF361F4BA660007EB8E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C405BF381F4BA660007EB8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C405BF3D1F4BA660007EB8E3 /* EVGPUImageTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EVGPUImageTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C405BF411F4BA660007EB8E3 /* EVGPUImageTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVGPUImageTestTests.swift; sourceTree = "<group>"; };
+		C405BF431F4BA660007EB8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C405BF481F4BA660007EB8E3 /* EVGPUImageTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EVGPUImageTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C405BF4C1F4BA660007EB8E3 /* EVGPUImageTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVGPUImageTestUITests.swift; sourceTree = "<group>"; };
+		C405BF4E1F4BA660007EB8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C405BF261F4BA660007EB8E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C405BF3A1F4BA660007EB8E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C405BF451F4BA660007EB8E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C405BF201F4BA660007EB8E3 = {
+			isa = PBXGroup;
+			children = (
+				C405BF2B1F4BA660007EB8E3 /* EVGPUImageTest */,
+				C405BF401F4BA660007EB8E3 /* EVGPUImageTestTests */,
+				C405BF4B1F4BA660007EB8E3 /* EVGPUImageTestUITests */,
+				C405BF2A1F4BA660007EB8E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C405BF2A1F4BA660007EB8E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C405BF291F4BA660007EB8E3 /* EVGPUImageTest.app */,
+				C405BF3D1F4BA660007EB8E3 /* EVGPUImageTestTests.xctest */,
+				C405BF481F4BA660007EB8E3 /* EVGPUImageTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C405BF2B1F4BA660007EB8E3 /* EVGPUImageTest */ = {
+			isa = PBXGroup;
+			children = (
+				C405BF2C1F4BA660007EB8E3 /* AppDelegate.swift */,
+				C405BF2E1F4BA660007EB8E3 /* ViewController.swift */,
+				C405BF301F4BA660007EB8E3 /* Main.storyboard */,
+				C405BF331F4BA660007EB8E3 /* Assets.xcassets */,
+				C405BF351F4BA660007EB8E3 /* LaunchScreen.storyboard */,
+				C405BF381F4BA660007EB8E3 /* Info.plist */,
+			);
+			path = EVGPUImageTest;
+			sourceTree = "<group>";
+		};
+		C405BF401F4BA660007EB8E3 /* EVGPUImageTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C405BF411F4BA660007EB8E3 /* EVGPUImageTestTests.swift */,
+				C405BF431F4BA660007EB8E3 /* Info.plist */,
+			);
+			path = EVGPUImageTestTests;
+			sourceTree = "<group>";
+		};
+		C405BF4B1F4BA660007EB8E3 /* EVGPUImageTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C405BF4C1F4BA660007EB8E3 /* EVGPUImageTestUITests.swift */,
+				C405BF4E1F4BA660007EB8E3 /* Info.plist */,
+			);
+			path = EVGPUImageTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C405BF281F4BA660007EB8E3 /* EVGPUImageTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C405BF511F4BA660007EB8E3 /* Build configuration list for PBXNativeTarget "EVGPUImageTest" */;
+			buildPhases = (
+				C405BF251F4BA660007EB8E3 /* Sources */,
+				C405BF261F4BA660007EB8E3 /* Frameworks */,
+				C405BF271F4BA660007EB8E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EVGPUImageTest;
+			productName = EVGPUImageTest;
+			productReference = C405BF291F4BA660007EB8E3 /* EVGPUImageTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C405BF3C1F4BA660007EB8E3 /* EVGPUImageTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C405BF541F4BA660007EB8E3 /* Build configuration list for PBXNativeTarget "EVGPUImageTestTests" */;
+			buildPhases = (
+				C405BF391F4BA660007EB8E3 /* Sources */,
+				C405BF3A1F4BA660007EB8E3 /* Frameworks */,
+				C405BF3B1F4BA660007EB8E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C405BF3F1F4BA660007EB8E3 /* PBXTargetDependency */,
+			);
+			name = EVGPUImageTestTests;
+			productName = EVGPUImageTestTests;
+			productReference = C405BF3D1F4BA660007EB8E3 /* EVGPUImageTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C405BF471F4BA660007EB8E3 /* EVGPUImageTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C405BF571F4BA660007EB8E3 /* Build configuration list for PBXNativeTarget "EVGPUImageTestUITests" */;
+			buildPhases = (
+				C405BF441F4BA660007EB8E3 /* Sources */,
+				C405BF451F4BA660007EB8E3 /* Frameworks */,
+				C405BF461F4BA660007EB8E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C405BF4A1F4BA660007EB8E3 /* PBXTargetDependency */,
+			);
+			name = EVGPUImageTestUITests;
+			productName = EVGPUImageTestUITests;
+			productReference = C405BF481F4BA660007EB8E3 /* EVGPUImageTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C405BF211F4BA660007EB8E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alex Tang";
+				TargetAttributes = {
+					C405BF281F4BA660007EB8E3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3NLAQ87DRE;
+						ProvisioningStyle = Automatic;
+					};
+					C405BF3C1F4BA660007EB8E3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3NLAQ87DRE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C405BF281F4BA660007EB8E3;
+					};
+					C405BF471F4BA660007EB8E3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3NLAQ87DRE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C405BF281F4BA660007EB8E3;
+					};
+				};
+			};
+			buildConfigurationList = C405BF241F4BA660007EB8E3 /* Build configuration list for PBXProject "EVGPUImageTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C405BF201F4BA660007EB8E3;
+			productRefGroup = C405BF2A1F4BA660007EB8E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C405BF281F4BA660007EB8E3 /* EVGPUImageTest */,
+				C405BF3C1F4BA660007EB8E3 /* EVGPUImageTestTests */,
+				C405BF471F4BA660007EB8E3 /* EVGPUImageTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C405BF271F4BA660007EB8E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C405BF371F4BA660007EB8E3 /* LaunchScreen.storyboard in Resources */,
+				C405BF341F4BA660007EB8E3 /* Assets.xcassets in Resources */,
+				C405BF321F4BA660007EB8E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C405BF3B1F4BA660007EB8E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C405BF461F4BA660007EB8E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C405BF251F4BA660007EB8E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C405BF2F1F4BA660007EB8E3 /* ViewController.swift in Sources */,
+				C405BF2D1F4BA660007EB8E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C405BF391F4BA660007EB8E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C405BF421F4BA660007EB8E3 /* EVGPUImageTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C405BF441F4BA660007EB8E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C405BF4D1F4BA660007EB8E3 /* EVGPUImageTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C405BF3F1F4BA660007EB8E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C405BF281F4BA660007EB8E3 /* EVGPUImageTest */;
+			targetProxy = C405BF3E1F4BA660007EB8E3 /* PBXContainerItemProxy */;
+		};
+		C405BF4A1F4BA660007EB8E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C405BF281F4BA660007EB8E3 /* EVGPUImageTest */;
+			targetProxy = C405BF491F4BA660007EB8E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C405BF301F4BA660007EB8E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C405BF311F4BA660007EB8E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C405BF351F4BA660007EB8E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C405BF361F4BA660007EB8E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C405BF4F1F4BA660007EB8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C405BF501F4BA660007EB8E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C405BF521F4BA660007EB8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = EVGPUImageTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.EVGPUImageTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C405BF531F4BA660007EB8E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = EVGPUImageTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.EVGPUImageTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C405BF551F4BA660007EB8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = EVGPUImageTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.EVGPUImageTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EVGPUImageTest.app/EVGPUImageTest";
+			};
+			name = Debug;
+		};
+		C405BF561F4BA660007EB8E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = EVGPUImageTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.EVGPUImageTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EVGPUImageTest.app/EVGPUImageTest";
+			};
+			name = Release;
+		};
+		C405BF581F4BA660007EB8E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = EVGPUImageTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.EVGPUImageTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EVGPUImageTest;
+			};
+			name = Debug;
+		};
+		C405BF591F4BA660007EB8E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3NLAQ87DRE;
+				INFOPLIST_FILE = EVGPUImageTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.EVGPUImageTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EVGPUImageTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C405BF241F4BA660007EB8E3 /* Build configuration list for PBXProject "EVGPUImageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C405BF4F1F4BA660007EB8E3 /* Debug */,
+				C405BF501F4BA660007EB8E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C405BF511F4BA660007EB8E3 /* Build configuration list for PBXNativeTarget "EVGPUImageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C405BF521F4BA660007EB8E3 /* Debug */,
+				C405BF531F4BA660007EB8E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C405BF541F4BA660007EB8E3 /* Build configuration list for PBXNativeTarget "EVGPUImageTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C405BF551F4BA660007EB8E3 /* Debug */,
+				C405BF561F4BA660007EB8E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C405BF571F4BA660007EB8E3 /* Build configuration list for PBXNativeTarget "EVGPUImageTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C405BF581F4BA660007EB8E3 /* Debug */,
+				C405BF591F4BA660007EB8E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C405BF211F4BA660007EB8E3 /* Project object */;
+}
